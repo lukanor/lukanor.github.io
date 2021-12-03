@@ -1,0 +1,1025 @@
+.discover { 
+    font-family: 'M PLUS Rounded 1c', sans-serif;   
+    font-size: larger;
+    display: grid; 
+    grid-template-rows: 1fr 4fr 4fr 4fr 1fr 1fr;  
+}
+
+.heading { 
+    grid-row: 1/2; 
+    text-align: center; 
+    background-color: #9a8c98; 
+    width: 600px;  
+    margin: 1rem; ;
+} 
+
+.discover1 { 
+    grid-row: 2/3; 
+    background-image: url(https://www.nmd2020.com/wp-content/uploads/2021/07/2021-adidas-Yeezy-Foam-Runner-MXT-Moon-Gray-GV7904-For-Sale.jpg); 
+    height: 415px; 
+    width: 600px; 
+    border-radius: 15px; 
+    margin: 1rem;  
+
+} 
+
+.yeezybtn { 
+    color: white; 
+    text-decoration: none;  
+}  
+
+ul { 
+    text-align: center ; 
+    font-size: larger;
+} 
+
+.yeezybtn:hover, .yeezybtn:focus { 
+    text-decoration: underline;
+}
+
+.discover2 { 
+    grid-row: 3/4; 
+    background-image: url(https://www.kicksonfire.com/wp-content/uploads/2018/06/OFF-WHITE-x-Air-Jordan-1-Powder-Blue-UNC-7.png); 
+    height: 450px; 
+    width: 600px; 
+    border-radius: 15px; 
+    margin: 1rem; 
+}  
+
+.offwhitebtn { 
+    color:black; 
+    text-decoration: none;
+} 
+
+.offwhitebtn:hover, .offwhitebtn:focus { 
+    text-decoration: underline;
+}
+
+.discover3 { 
+    grid-row: 4/5; 
+    background-image: url(https://i2-prod.dailystar.co.uk/incoming/article23808828.ece/ALTERNATES/s615/0_Screen-Shot-2021-03-27-at-225905.png); 
+    height: 400px;
+    width: 600px; 
+    border-radius: 15px;  
+    margin: 1rem;
+} 
+
+.stylebtn { 
+    color:black;
+    text-decoration: none;
+} 
+
+.stylebtn:hover, .stylebtn:focus { 
+    text-decoration: underline;
+}
+
+.menu1 { 
+    grid-row: 5/6; 
+    background-color: #9a8c98;    
+    width: 600px; 
+    height: 60px;  
+    display: flex;   
+    justify-content: space-around; 
+    align-items: center; 
+    position: fixed; 
+    bottom: 0;  
+    margin: 1rem;
+}  
+
+.menu2 { 
+    display: none;
+}
+
+.homebtn {  
+    height: 40px; 
+    width: 40px;
+} 
+
+.searchbtn {  
+    height: 40px; 
+    width: 40px;
+} 
+
+.profilebtn {   
+    height: 40px; 
+    width: 40px; 
+} 
+
+footer { 
+    grid-row: 6/7; 
+    font-size: x-small; 
+    margin: 1rem; 
+    width: 600px;
+}
+
+.search { 
+    font-family: 'M PLUS Rounded 1c', sans-serif; 
+    display: grid; 
+    grid-template-rows: 1fr 3fr 3fr 3fr 1fr; 
+} 
+
+.searchbar {   
+    grid-row: 1/2;   
+    display: flex;  
+    justify-content: center; 
+    background-color: #9a8c98; 
+    width: 600px; 
+    height: 75px; 
+    margin: 1rem;   
+      
+}  
+
+.title1 { 
+    display:none;
+} 
+
+.menu2a { 
+    display: none;
+} 
+
+.menu2b { 
+    display:none;
+}
+
+form { 
+    background-color: #9a8c98; 
+    width: 400px; 
+    height: 50px; 
+    border-radius: 5px;
+    display: flex;  
+    align-items: center; 
+    justify-content: space-evenly;     
+} 
+
+input {
+    all: unset;
+    font: 16px system-ui;
+    color: #fff;
+    height: 90%;
+    width: 90%;
+    padding: 6px 10px;
+}  
+
+::placeholder {
+    color: #fff; 
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+}
+  
+svg {
+    color: #fff;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+}  
+
+.shoe12 {  
+    grid-row: 2/3;
+    display: flex; 
+    width: 600px; 
+    flex-direction: row; 
+    justify-content: center; 
+    margin: 1rem;  
+
+}  
+
+.shoe1 { 
+    display: flex; 
+    flex-direction: column; 
+    margin: 0.5rem; 
+    height: 240px; 
+    width: 240px; 
+    text-align: center;
+} 
+
+.shoe2 { 
+    display: flex; 
+    flex-direction: column; 
+    margin: 0.5rem; 
+    height: 240px; 
+    width: 240px; 
+    text-align: center;
+} 
+
+.shoe34 { 
+    grid-row: 3/4; 
+    display: flex; 
+    width: 600px; 
+    flex-direction: row; 
+    justify-content: center; 
+    margin: 1rem; 
+ 
+} 
+
+.shoe3 { 
+    display: flex; 
+    flex-direction: column; 
+    margin: 0.5rem; 
+    height: 240px; 
+    width: 240px;  
+    text-align: center;
+} 
+
+.shoe4 { 
+    display: flex; 
+    flex-direction: column; 
+    margin: 0.5rem; 
+    height: 240px; 
+    width: 240px; 
+    text-align: center;
+} 
+
+.shoe56 { 
+    grid-row: 4/5; 
+    display: flex; 
+    width: 600px; 
+    flex-direction: row; 
+    justify-content: center; 
+    margin: 1rem; 
+} 
+
+.shoe5 { 
+    display: flex; 
+    flex-direction: column; 
+    margin: 0.5rem; 
+    height: 240px; 
+    width: 240px; 
+    text-align: center;
+} 
+
+.shoe6 { 
+    display: flex; 
+    flex-direction: column; 
+    margin: 0.5rem;  
+    height: 200px; 
+    width: 240px;  
+    text-align: center;
+}
+
+.blackdunkbtn { 
+    color: black; 
+    text-decoration: none; 
+    font-size: smaller; 
+} 
+
+.blackdunkbtn:hover, .blackdunkbtn:focus { 
+      text-decoration: underline;
+} 
+
+.bluedunkbtn { 
+    color: black; 
+    text-decoration: none; 
+    font-size: smaller; 
+} 
+
+.bluedunkbtn:hover, .bluedunkbtn:focus { 
+    text-decoration: underline;
+} 
+
+ 
+
+.orangedunkbtn { 
+    color: black; 
+    text-decoration: none; 
+    font-size: smaller; 
+} 
+
+.orangedunkbtn:hover, .orangedunkbtn:focus { 
+    text-decoration: underline;
+} 
+
+ 
+
+.georgetowndunkbtn { 
+    color: black; 
+    text-decoration: none; 
+    font-size: smaller; 
+} 
+
+.georgetowndunkbtn:hover, .georgetowndunkbtn:focus { 
+    text-decoration: underline;
+} 
+
+.crazycolordunkbtn { 
+    color: black; 
+    text-decoration: none; 
+    font-size: smaller; 
+} 
+
+.crazycolordunkbtn:hover, .crazycolordunkbtn:focus { 
+    text-decoration: underline;
+} 
+
+.pinkdunkbtn { 
+    color: black; 
+    text-decoration: none; 
+    font-size: smaller; 
+} 
+
+.pinkdunkbtn:hover, .pinkdunkbtn:focus { 
+    text-decoration: underline;
+}  
+
+.profile { 
+    font-family: 'M PLUS Rounded 1c', sans-serif; 
+    display: grid; 
+    grid-template-rows: 1fr 4fr 1fr;
+} 
+
+.profileheading { 
+    background-color: #9a8c98;  
+    width: 600px; 
+    height: 70px;  
+    margin: 1rem; 
+    grid-row: 1/2;
+} 
+
+.profileheading h1 { 
+    color:black; 
+    text-align: center; 
+    font-size: 25px;
+}  
+
+.profilebtns {  
+    grid-row: 2/3;
+    width: 600px;  
+    margin: 1rem;   
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-around;  
+    align-items: center; 
+    background-color:#F1E3E4; 
+     
+} 
+
+.profilebtn1 { 
+    width: 400px;  
+    height: 45px;
+    background-color: #9a8c98 ; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 10px; 
+    margin:1.5rem;
+} 
+
+.profilebtn2 { 
+    width: 400px;  
+    height: 45px;
+    background-color: #9a8c98 ; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 10px; 
+    margin:1.5rem;
+} 
+
+.profilebtn3 { 
+    width: 400px;  
+    height: 45px;
+    background-color: #9a8c98 ; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    border-radius: 10px; 
+    margin:1.5rem;
+} 
+
+.profilebtn4 { 
+    width: 400px;  
+    height: 45px;
+    background-color: #9a8c98 ; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 10px; 
+    margin:1.5rem;
+} 
+
+.profilebtn5 { 
+    width: 400px;  
+    height: 45px;
+    background-color: #9a8c98 ; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 10px; 
+    margin:1.5rem;
+}
+
+.wishlist { 
+    background-color: #9a8c98; 
+    color: black; 
+    text-decoration: none;  
+    
+} 
+
+.wishlist:hover, .wishlist:focus { 
+    color: white; 
+} 
+
+.savedstyles { 
+    background-color: #9a8c98; 
+    color: black; 
+    text-decoration: none; 
+
+} 
+
+.savedstyles:hover, .savedstyles:focus { 
+    color: white; 
+} 
+
+.owned { 
+    background-color: #9a8c98; 
+    color: black; 
+    text-decoration: none;
+
+} 
+
+.owned:hover, .owned:focus { 
+    color: white; 
+} 
+
+.payment { 
+    background-color: #9a8c98; 
+    color: black; 
+    text-decoration: none;
+} 
+
+.payment:hover, .payment:focus { 
+    color: white; 
+}  
+
+.orders { 
+    background-color: #9a8c98; 
+    color: black; 
+    text-decoration: none;
+} 
+
+.orders:hover, .orders:focus { 
+    color: white; 
+} 
+
+.sneaker { 
+    font-family: 'M PLUS Rounded 1c', sans-serif; 
+    display: grid;  
+    grid-template-rows: 1fr 4fr 1fr 2fr;
+} 
+
+.sneakerheading { 
+    grid-row: 1/2; 
+    background-color: #9a8c98; 
+    width: 600px;    
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin: 1rem
+}  
+
+h2 { 
+    color: white; 
+    font-size: 20px;
+}  
+
+.sneakerpic { 
+    grid-row: 2/3; 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    margin: 1rem;  
+} 
+
+.picture { 
+    grid-column: 1/3; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+} 
+
+.pic { 
+    height: 400px; 
+    width: 400px;
+}
+
+.szandprice { 
+    grid-row: 3/4; 
+    display: flex;   
+    margin-left: 1rem; 
+    justify-content: space-around; 
+    align-items: center; 
+    width: 600px;
+} 
+
+.sizebtn {
+    background-color: #9a8c98;
+    color: white;
+    padding: 16px;
+    font-size: 25px;
+    border: none; 
+    width: 300px; 
+    text-align: center;  
+} 
+
+.sizedropdown {  
+    display:none; 
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    z-index: 1; 
+}  
+
+.sizedropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; 
+} 
+
+h4 { 
+    display: inline-block;  
+    font-size: 30px; 
+} 
+
+.sizedropdown a:hover {background-color: #ddd;} 
+.szandprice:hover .sizedropdown {display: block;} 
+.szandprice:hover .sizebtn {background-color: #9a8c98;}
+
+.details { 
+    grid-row: 4/5; 
+    width: 600px; 
+    margin-left: 1rem; 
+}  
+
+h5 { 
+    font-size: 20px; 
+    text-align: center;
+} 
+
+.title2 { 
+    display: none;
+}  
+
+.title3 { 
+    display: none;
+} 
+
+.menu2c { 
+    display:none;
+} 
+
+.heading4 { 
+    display:none;
+}
+
+
+@media only screen and (min-width: 750px) { 
+    .heading { 
+        width: 975px; 
+        text-align: start; 
+        display: grid; 
+        grid-template-columns: 1fr 1fr;  
+        position: fixed; 
+        top: 0;
+    } 
+    
+    .menu1 { 
+        display:none;
+    }  
+
+    .title { 
+        grid-column: 1/2; 
+        text-align:center;
+    } 
+
+    .menu2 { 
+        display: flex; 
+        align-items: center;  
+        justify-content:space-around;
+    }  
+
+    .homebtn2 { 
+        text-decoration: none; 
+        color: black;
+    } 
+
+    .homebtn2:hover, .homebtn2:focus { 
+        text-decoration: underline;
+    }
+
+    ul { 
+        font-size: x-large; 
+    } 
+
+    .discover1 { 
+        width: 975px;
+    } 
+
+    .discover2 { 
+        width: 975px;
+    } 
+
+    .discover3 { 
+        width: 975px;
+    } 
+    
+    footer { 
+        font-size: small; 
+        width: 975px; 
+        text-align: center;
+    } 
+    
+    .search { 
+        grid-template-rows: 1fr 1fr 4fr 4fr 4fr 1fr;   
+    }  
+
+    .heading2 {  
+        grid-row: 1/2;   
+        background-color: #9a8c98; 
+        text-align: start; 
+        display: grid; 
+        grid-template-columns: 1fr 1fr;  
+        position: fixed; 
+        top: 0; 
+        width: 975px; 
+        height: 100px; 
+        margin: 1rem;
+    }  
+
+    .title1 { 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        grid-column: 1/2; 
+        text-align:center;
+    }  
+
+    .menu2a { 
+        grid-column: 2/3; 
+        display: flex; 
+        align-items: center; 
+        justify-content: space-around;
+    }
+
+    .searchbar { 
+        grid-row: 2/3; 
+        display: flex;  
+        justify-content: center; 
+        align-items: center; 
+        width: 975px;  
+        opacity: 0.5;  
+    
+    } 
+
+    .shoe12 { 
+        width: 975px; 
+        grid-row: 3/4;  
+        display: flex; 
+        align-items: center;
+    }  
+
+    .shoe1 { 
+        height: 500px; 
+        width: 500px;
+    } 
+
+    .shoe2 { 
+        height: 500px; 
+        width: 500px;
+    }
+
+    .shoe34 { 
+        width: 975px; 
+        grid-row: 4/5; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center;   
+    } 
+    
+    .shoe3 { 
+        height: 450px; 
+        width: 450px;
+    } 
+
+    .shoe4 { 
+        height: 450px; 
+        width: 450px;
+    }
+
+    .shoe56 { 
+        width: 975px;  
+        grid-row: 5/6; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center;  
+    }  
+
+    .shoe5 { 
+        height: 450px; 
+        width: 450px;
+    } 
+
+    .shoe6 { 
+        height: 450px; 
+        width: 450px;
+    } 
+
+    .profile { 
+        grid-template-rows: 1fr 1fr 4fr; 
+        background-color: white;
+    }  
+
+    .heading4 { 
+        grid-row: 1/2; 
+        background-color: #9a8c98; 
+        width: 975px; 
+        height: 100px; 
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        margin: 1rem
+    } 
+    .title3 { 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        grid-column: 1/2; 
+        text-align:center;
+    }  
+
+    .menu2c { 
+        grid-column: 2/3; 
+        display: flex; 
+        align-items: center; 
+        justify-content: space-around;
+    }
+
+    .profileheading { 
+        grid-row: 2/3; 
+        display: flex; 
+        justify-content: center; 
+        width: 975px; 
+        height: 60px; 
+        background-color: #F1E3E4;  
+    }  
+
+    .profileheading h1 { 
+        color: black; 
+        text-align: center;
+    }
+
+
+    .profilebtns {  
+        grid-row: 3/4;
+        width: 975px;  
+    } 
+
+    .profilebtn1 { 
+        width: 600px;
+    } 
+
+    .profilebtn2 { 
+        width: 600px;
+    } 
+
+    .profilebtn3 { 
+        width: 600px;
+    }
+
+    .profilebtn4 { 
+        width: 600px;
+    } 
+
+    .profilebtn5 { 
+        width: 600px;
+    }
+     
+    .sneaker { 
+        display: grid; 
+        grid-template-rows: 1fr 1fr 3fr 1fr 1fr; 
+        height: fit-content;
+    } 
+    .heading3 { 
+        grid-row: 1/2; 
+        background-color:#9a8c98 ;   
+        text-align: start; 
+        display: grid; 
+        grid-template-columns: 1fr 1fr;  
+        position: fixed; 
+        top: 0; 
+        width: 975px; 
+        height: 100px; 
+        margin: 1rem;
+    }  
+
+    .title1 { 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        grid-column: 1/2; 
+        text-align:center;
+    }  
+
+    .menu2b { 
+        grid-column: 2/3; 
+        display: flex; 
+        align-items: center; 
+        justify-content: space-around;
+    }
+    .sneakerheading {  
+        width: 975px; 
+        grid-row: 2/3; 
+        opacity: 0.5; 
+        
+    }  
+
+    .sneakerpic { 
+        grid-row: 3/4; 
+        width: 975px;   
+        height: 400px;       
+    }    
+
+    .pic { 
+        height: 500px; 
+        width: 500px; 
+    }
+
+    .szandprice { 
+        grid-row: 4/5; 
+        width: 800px; 
+    }
+
+    .sizebtn { 
+        width: 500px; 
+    } 
+
+    .sizedropdown { 
+        width: 250px;
+    } 
+
+    .details { 
+        grid-row: 5/6 ; 
+        width: 975px; 
+    } 
+
+    h5 { 
+        font-size: 25px;;
+    }
+} 
+
+@media only screen and (min-width: 1200px) { 
+    .heading { 
+        width: 1390px;  
+    } 
+
+    .discover1 { 
+        width: 1390px;
+    } 
+
+    .discover2 { 
+        width: 1390px;
+    } 
+
+    .discover3 { 
+        width: 1390px;
+    } 
+
+    footer { 
+        width: 1390px;
+    } 
+
+    .heading2 { 
+        width: 1390px;  
+        height: 150px;
+    } 
+
+    .searchbar { 
+        width: 1390px;
+    } 
+
+    .shoe12 { 
+        width: 1390px;
+    }  
+
+    .shoe1 {
+        width: 700px; 
+        height: 700px;
+    } 
+
+    .shoe2 {
+        width: 700px; 
+        height: 700px;
+    }
+
+    .shoe34 { 
+        width: 1390px;
+    }  
+
+    .shoe3 {
+        width: 700px; 
+        height: 700px;
+    } 
+
+    .shoe4 {
+        width: 700px; 
+        height: 700px;
+    }
+
+    .shoe56 { 
+        width: 1390px;
+    } 
+
+    .shoe5 {
+        width: 700px; 
+        height: 700px;
+    } 
+
+    .shoe6 {
+        width: 700px; 
+        height: 700px;
+    }  
+    
+    .heading4 { 
+        width: 1390px; 
+        height: 150px;
+    }
+    
+    .profileheading { 
+        width: 1390px;
+    }
+
+    .profilebtns { 
+        width: 1390px;
+    } 
+
+    .profilebtn1 { 
+        width: 800px;
+    } 
+
+    .profilebtn2 { 
+        width: 800px;
+    } 
+
+    .profilebtn3 { 
+        width: 800px;
+    } 
+
+    .profilebtn4 { 
+        width: 800px;
+    } 
+
+    .profilebtn5 { 
+        width: 800px;
+    } 
+
+    .heading3 { 
+        width: 1390px; 
+        height: 200px; 
+    } 
+
+    .sneakerheading { 
+        width: 1390px; 
+        height: 150px 
+    } 
+
+    .sneakerpic { 
+        width: 1390px; 
+        height: 900px; 
+    } 
+    
+    .picture { 
+        height: 900px;
+    } 
+
+    .pic { 
+        height: 700px; 
+        width: 700px;
+    }
+
+    .szandprice { 
+        width: 1000px;
+    }
+
+    .sizebtn { 
+        width: 700px;
+    } 
+
+    .sizedropdown { 
+        width: 400px;
+    } 
+
+    .details { 
+        width: 1390px; 
+    } 
+
+    h5 { 
+        font-size: 30px;;
+    }
+}
+
+
+
+
